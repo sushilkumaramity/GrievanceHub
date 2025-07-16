@@ -1,0 +1,77 @@
+.admin-grievance-detail {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg,  #3b0235,  #2b0b93);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-grievance-detail h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #2b0b93, #3b0235);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.detail-card {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.detail-card p {
+  margin: 15px 0;
+}
+
+.description {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.doc-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.status-form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.status-form label {
+  font-weight: bold;
+}
+
+.status-form select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.status-form button {
+  background: #fff;
+  color: #2b0b93;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.status-form button:hover {
+  background: #f5e2d3;
+}

@@ -1,0 +1,108 @@
+.user-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg,  #3b0235,  #2b0b93);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: linear-gradient(135deg, #2b0b93,  #2b0b93, #3b0235 );
+  backdrop-filter: blur(8px);
+}
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.user-brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-btn {
+  display: inline-block;
+  margin-left: 20px;
+  background: #fff;
+  color: #2b0b93;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
+
+.nav-btn:hover {
+  background: #f5e2d3;
+}
+
+.logout-btn {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.logout-btn:hover {
+  background: #ff1a1a;
+}
+
+
+.user-main {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.user-main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.user-main p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background: #fff;
+  color:  #2b0b93;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #f5e2d3;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #2b0b93, #3b0235);
+  color: #fff;
+  font-size: 0.95rem;}

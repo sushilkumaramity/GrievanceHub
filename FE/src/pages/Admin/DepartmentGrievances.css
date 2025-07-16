@@ -1,0 +1,54 @@
+.department-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3b0235, #2b0b93);
+  padding: 60px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.department-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  background: #fff;
+  color: #2b0b93;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #f5e2d3;
+}
+
+.grievance-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  padding: 30px 40px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.grievance-card h3 {
+  margin-bottom: 10px;
+}
+
+.no-grievance-text {
+  font-style: italic;
+  color: #ddd;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #2b0b93, #3b0235);
+  color: #fff;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,85 @@
+.admin-grievance-list {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg,  #3b0235,  #2b0b93);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-grievance-list h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #2b0b93, #3b0235);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.grievance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.grievance-table th,
+.grievance-table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.grievance-table th {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.doc-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.view-link {
+  display: inline-block;
+  background: #fff;
+  color:  #2b0b93;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.view-link:hover {
+  background: #f5e2d3;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.status.pending {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+.status.resolved {
+  background: #5cb85c;
+  color: #fff;
+}
+
+.status.in-progress {
+  background: #5bc0de;
+  color: #fff;
+}

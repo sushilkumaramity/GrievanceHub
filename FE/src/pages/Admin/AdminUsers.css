@@ -1,0 +1,87 @@
+.admin-users {
+  min-height: 100vh;
+  padding: 60px;
+  background: linear-gradient(135deg,  #3b0235,  #2b0b93);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-users h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #2b0b93, #3b0235);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.add-user-btn {
+  display: block;
+  margin: 0 auto 30px auto;
+  background: #fff;
+  color: #2b0b93;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.add-user-btn:hover {
+  background: #f5e2d3;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.users-table th,
+.users-table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.users-table th {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.action-btn {
+  margin-right: 10px;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #fff;
+  color: #2b0b93;
+}
+
+.edit-btn:hover {
+  background: #f5e2d3;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #ff1a1a;
+}
