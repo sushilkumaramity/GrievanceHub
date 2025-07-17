@@ -17,6 +17,18 @@
   width: 90%;
   text-align: center;
 }
+.grievance-form-container select {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.grievance-form-container select:focus {
+  outline: none;
+}
+
 
 .footer {
   text-align: center;
